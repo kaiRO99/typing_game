@@ -1,0 +1,65 @@
+.game {
+  position: absolute;
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* align-items: center; */
+  background-color: grey;
+  height: 500px;
+  width: 1025px;
+}
+.fallingText {
+  position: relative;
+  /* background-color: green; */
+  /* border-width: 2px; */
+  /* overflow: hidden; */
+  /* border-color: black; */
+  width: 100%;
+}
+
+.line {
+  /* height: 10px; */
+  border-color: black;
+  /* size: 40; */
+  /* border-top: 10px; */
+  /* overflow: visible; */
+  color: black;
+  background-color: black;
+  position: absolute;
+  top: 400px;
+  width: 1023px;
+  /* width: 90%; */
+  border-bottom: none;
+  /* line-height: 50px; */
+}
+.bottom {
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  position: relative;
+  align-items: center;
+  /* content: center; */
+  top: 410px;
+  width: 400px;
+}
+/* div {
+  background: black;
+} */
+/* .bottom,
+button,
+input,
+h1 {
+  display: block;
+  justify-content: center;
+} */
+.scoreboard h1 {
+  margin-top: 0px;
+}
+.scoreboard {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+}

@@ -21,3 +21,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+logo.svg
+reportWebVitals.js
+setupTests.js
+
+package-lock.json
+package.json
+
+postcss.config.js
+src/global.css
+tailwind.config.js
+/styles
+/public
