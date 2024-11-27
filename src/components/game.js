@@ -279,7 +279,9 @@ const Game = () => {
     if (e.key === "Enter") {
       //update word elements
       setElements((prevElements) => {
-        let index = prevElements.findIndex((el) => el.word === input);
+        let index = prevElements.findIndex(
+          (el) => el.word === input.toLowerCase()
+        );
         console.log("index", index);
         if (index === -1) {
           return prevElements;
@@ -393,6 +395,6 @@ const Game = () => {
       )}
     </div>
   );
-};//Game
+}; //Game
 
 export default Game;
